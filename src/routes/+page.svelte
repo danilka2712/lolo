@@ -56,10 +56,10 @@
     />
   </div>
   <div class="flex flex-col mt-32 relative z-10">
-    <h1 class="lg:text-9xl text text-7xl -ml-2 font-extrabold">
-      РАЗРАБОТКА <br /> И ПРОДВИЖЕНИЕ
+    <h1 class="lg:text-9xl text text-7xl -ml-2 font-extrabold uppercase">
+      Из беспорядка <br /> в гармонию
     </h1>
-    <p class=" text-2xl text w-3/5 my-10 text-white/90">
+    <p class=" text-2xl text w-3/5 my-8 text-white/90">
       Мы занимаемся разработкой, проектированием, дизайном и продвижением
       уникальных цифровых продуктов, веб-сайтов, брендов и опыта.
     </p>
@@ -135,7 +135,7 @@
     <div class="my-14 flex justify-between">
       <div class="w-2/6 flex flex-col gap-6">
         <p class="text-3xl">
-          Создали уникальный и стильный сайт для магазина курток и пуховиков.
+          Создали удобный сайт для компании по демонтажу сооружений.
         </p>
         <div class="flex flex-wrap gap-4">
           <span
@@ -158,7 +158,7 @@
       <div class="w-1/2">
         <img
           class=" rounded-xl h-96 w-full object-cover"
-          src="ipad-pro-preview-5-p-1080.png"
+          src="Group.png"
           alt=""
         />
       </div>
@@ -184,7 +184,7 @@
       <div class="w-1/2">
         <img
           class=" rounded-xl h-96 w-full object-cover"
-          src="pres-device-mockups-_image1-47-9_1694572330729.webp"
+          src="pres-device-mockups-_image1-9.webp"
           alt=""
         />
       </div>
@@ -210,7 +210,7 @@
       <div class="w-1/2">
         <img
           class=" rounded-xl h-96 w-full object-cover"
-          src="preview-8-v1.png"
+          src="preview-8-v1.webp"
           alt=""
         />
       </div>

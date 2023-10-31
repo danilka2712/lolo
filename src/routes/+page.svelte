@@ -30,8 +30,8 @@
   let m = { x: 0, y: 0 };
 
   function handleMousemove(event) {
-    m.x = event.clientX;
-    m.y = event.clientY;
+    m.x = event.offsetX;
+    m.y = event.offsetY;
     setTimeout(() => {
       imageHide = true;
     }, 100);
@@ -43,18 +43,10 @@
   <div
     class=" absolute flex -top-36 -rotate-12 items-center justify-center ml-auto mr-auto left-0 right-80 z-0"
   >
-    <img
-      class="w-72 box rounded-xl"
-      src="https://assets.website-files.com/64d1a3f882efd7fa3c726596/64dd44d77f953bd5852e5c53_Brand-007.webp"
-      alt=""
-    />
+    <img class="w-72 box rounded-xl" src="preview-7-p-1080.png" alt="" />
   </div>
   <div class=" absolute flex bottom-4 -right-44 -rotate-12 z-0">
-    <img
-      class="w-72 box rounded-xl"
-      src="https://assets.website-files.com/64d1a3f882efd7fa3c726596/64dd44d77f953bd5852e5c53_Brand-007.webp"
-      alt=""
-    />
+    <img class="w-72 box rounded-xl" src="preview-3-p-1080.png" alt="" />
   </div>
   <div class=" absolute flex bottom-56 -left-44 -rotate-12 z-0">
     <img
@@ -119,7 +111,7 @@
         }}
         class="w-72 absolute rounded-xl"
         src="https://assets.website-files.com/64d293054a05b986902db3e3/64e53bb70695f0b7c417621f_packaging-box-tape-mockup-v4-isometric-1-2420x1615-p-800.jpeg"
-        style="left: {m.x - 180}px; top: {m.y - 280}px;"
+        style="left: {m.x}px; top: {m.y - 36}px;"
         alt=""
       />
     {/if}
@@ -135,19 +127,38 @@
       >Оставить заявку</button
     >
   </div>
-  <div class="mt-32 mb-20">
+  <div class="mt-32 mb-20 relative">
     <p>Кейсы</p>
 
     <hr class="border-white/10 my-4" />
 
     <div class="my-14 flex justify-between">
-      <p class="text-3xl w-1/4">
-        Ventura Airlines How we helped increase booking conversions
-      </p>
+      <div class="w-2/6 flex flex-col gap-6">
+        <p class="text-3xl">
+          Создали уникальный и стильный сайт для магазина курток и пуховиков.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <span
+            class=" border border-white/40 p-2 px-4 rounded-full w-fit text-sm"
+            >Популярные фреймворки</span
+          >
+          <span
+            class=" border border-white/40 p-2 px-4 rounded-full w-fit text-sm"
+            >Front-End</span
+          >
+
+          <span
+            class=" border border-white/40 p-2 px-4 rounded-full w-fit text-sm"
+          >
+            Back-End</span
+          >
+        </div>
+      </div>
+
       <div class="w-1/2">
         <img
-          class=" rounded-xl"
-          src="https://assets.website-files.com/64d293054a05b986902db3e3/64e53bb70695f0b7c417621f_packaging-box-tape-mockup-v4-isometric-1-2420x1615-p-800.jpeg"
+          class=" rounded-xl h-96 w-full object-cover"
+          src="ipad-pro-preview-5-p-1080.png"
           alt=""
         />
       </div>
@@ -155,13 +166,25 @@
     <hr class="border-white/10 my-4" />
 
     <div class="my-14 flex justify-between">
-      <p class="text-3xl w-1/4">
-        Ventura Airlines How we helped increase booking conversions
-      </p>
+      <div class="w-2/6 flex flex-col gap-6">
+        <p class="text-3xl">
+          SEO продвижение интернет-магазина лодок и моторов
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <span
+            class=" border border-white/40 p-2 px-4 rounded-full w-fit text-sm"
+            >Увеличение трафика</span
+          >
+          <span
+            class=" border border-white/40 p-2 px-4 rounded-full w-fit text-sm"
+            >Снижение затрат</span
+          >
+        </div>
+      </div>
       <div class="w-1/2">
         <img
-          class=" rounded-xl"
-          src="https://assets.website-files.com/64d293054a05b986902db3e3/64e53bb70695f0b7c417621f_packaging-box-tape-mockup-v4-isometric-1-2420x1615-p-800.jpeg"
+          class=" rounded-xl h-96 w-full object-cover"
+          src="pres-device-mockups-_image1-47-9_1694572330729.webp"
           alt=""
         />
       </div>
@@ -169,13 +192,25 @@
     <hr class="border-white/10 my-4" />
 
     <div class="my-14 flex justify-between">
-      <p class="text-3xl w-1/4">
-        Ventura Airlines How we helped increase booking conversions
-      </p>
+      <div class="w-2/6 flex flex-col gap-6">
+        <p class="text-3xl">
+          Оптимизировали серверную часть для министерства здравоохранения
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <span
+            class=" border border-white/40 p-2 px-4 rounded-full w-fit text-sm"
+            >Увеличили производительность</span
+          >
+          <span
+            class=" border border-white/40 p-2 px-4 rounded-full w-fit text-sm"
+            >Защита от DDoS</span
+          >
+        </div>
+      </div>
       <div class="w-1/2">
         <img
-          class=" rounded-xl"
-          src="https://assets.website-files.com/64d293054a05b986902db3e3/64e53bb70695f0b7c417621f_packaging-box-tape-mockup-v4-isometric-1-2420x1615-p-800.jpeg"
+          class=" rounded-xl h-96 w-full object-cover"
+          src="preview-8-v1.png"
           alt=""
         />
       </div>
@@ -264,5 +299,5 @@
       >
     </div>
   </div>
+  <hr class="border-white/10 my-4" />
 </div>
-<hr class="border-white/10 trigger my-4" />

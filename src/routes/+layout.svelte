@@ -27,11 +27,18 @@
 </main>
 
 <footer
-  class="flex justify-center gap-4 xl:max-w-7xl max-w-6xl mx-auto my-12 items-center relative z-10"
+  class="flex justify-between gap-4 xl:max-w-7xl max-w-6xl mx-auto my-24 items-center relative z-10"
 >
   <a class="w-fit" href="/">
     <img src="logotype.svg" class="w-16" alt="logotype" />
   </a>
 
-  <span>разработка и продвижением сайтов</span>
+  <ul>
+    <li class="flex gap-10">
+      <a href="/">Главная</a>
+      <a href="/">О нас</a>
+      <a href="/">Кейсы</a>
+      <a href="/">Контакты</a>
+    </li>
+  </ul>
 </footer>

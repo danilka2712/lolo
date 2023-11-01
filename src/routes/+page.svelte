@@ -39,27 +39,29 @@
   let imageHide = false;
 </script>
 
-<div class=" mx-auto opa xl:max-w-7xl max-w-6xl">
+<div class=" sm:mx-auto xl:max-w-7xl sm:max-w-6xl mx-4">
   <div
-    class=" absolute flex -top-36 -rotate-12 items-center justify-center ml-auto mr-auto left-0 right-80 z-0"
+    class=" absolute sm:flex hidden -top-36 -rotate-12 items-center justify-center ml-auto mr-auto left-0 right-80 z-0"
   >
     <img class="w-72 box rounded-xl" src="preview-7-p-1080.png" alt="" />
   </div>
-  <div class=" absolute flex bottom-4 -right-44 -rotate-12 z-0">
+  <div class=" absolute sm:flex hidden bottom-4 -right-44 -rotate-12 z-0">
     <img class="w-72 box rounded-xl" src="preview-3-p-1080.png" alt="" />
   </div>
-  <div class=" absolute flex bottom-56 -left-44 -rotate-12 z-0">
+  <div class=" absolute sm:flex hidden bottom-56 -left-44 -rotate-12 z-0">
     <img
       class="w-72 box rounded-xl"
       src="https://assets.website-files.com/64d1a3f882efd7fa3c726596/64dd44d77f953bd5852e5c53_Brand-007.webp"
       alt=""
     />
   </div>
-  <div class="flex flex-col mt-32 relative z-10">
-    <h1 class="lg:text-9xl text text-7xl -ml-2 font-extrabold uppercase">
+  <div class="flex flex-col sm:mt-32 mt-20 relative z-10">
+    <h1
+      class="lg:text-9xl text sm:text-7xl text-4xl sm:-ml-2 font-extrabold uppercase"
+    >
       Из беспорядка <br /> в гармонию
     </h1>
-    <p class=" text-2xl text w-3/5 my-8 text-white/90">
+    <p class=" sm:text-2xl text-xl text sm:w-3/5 my-8 text-white/90">
       Мы занимаемся разработкой, проектированием, дизайном и продвижением
       уникальных цифровых продуктов, веб-сайтов, брендов и опыта.
     </p>
@@ -72,23 +74,23 @@
   >
     <div class="flex justify-between w-full gap-20">
       <img
-        class="w-72"
+        class="sm:w-72 w-32"
         src="https://toproi.ru/wp-content/uploads/2020/05/mcedelvise-1.svg
         "
         alt=""
       />
       <img
-        class="w-72"
+        class="sm:w-72 w-32"
         src="https://toproi.ru/wp-content/uploads/2019/08/inrosko-logo.svg"
         alt=""
       />
       <img
-        class="w-72"
+        class="sm:w-72 hidden"
         src="https://toproi.ru/wp-content/uploads/2019/08/inrosko-logo.svg"
         alt=""
       />
       <img
-        class="w-72"
+        class="sm:w-72 hidden"
         src="https://toproi.ru/wp-content/uploads/2019/08/inrosko-logo.svg"
         alt=""
       />
@@ -98,7 +100,7 @@
     role="button"
     tabindex="0"
     on:mouseleave={() => (imageHide = false)}
-    class="flex .scroll-trigger-ready__worm-wrap flex-col justify-center items-center relative my-20 h-96"
+    class="flex .scroll-trigger-ready__worm-wrap flex-col sm:justify-center sm:items-center relative sm:my-20 my-10 sm:h-96"
   >
     {#if imageHide}
       <img
@@ -117,13 +119,14 @@
     {/if}
     <p
       on:mousemove={handleMousemove}
-      class="text-center w-5/6 tracking-wide leading-tight text-5xl cursor-default"
+      class="sm:text-center sm:w-5/6 tracking-wide leading-tight sm:text-5xl text-xl cursor-default"
     >
       С момента начала своей карьеры фрилансера в 2014 году я сотрудничал с
       самыми разными клиентами, от процветающих стартапов до солидных
       корпораций.
     </p>
-    <button class="border p-2 px-6 w-fit rounded-full border-white/25 mt-10"
+    <button
+      class="border sm:flex hidden p-2 px-6 w-fit rounded-full border-white/25 mt-10"
       >Оставить заявку</button
     >
   </div>
@@ -132,12 +135,12 @@
 
     <hr class="border-white/10 my-4" />
 
-    <div class="my-14 flex justify-between">
-      <div class="w-2/6 flex flex-col gap-6">
-        <p class="text-3xl">
+    <div class="my-14 flex sm:flex-row flex-col justify-between">
+      <div class="sm:w-2/6 flex flex-col gap-6">
+        <p class="sm:text-3xl text-xl">
           Создали удобный сайт для компании по демонтажу сооружений.
         </p>
-        <div class="flex flex-wrap gap-4">
+        <div class="flex flex-wrap gap-4 pb-6 sm:pb-0">
           <span
             class=" border border-white/40 p-2 px-4 rounded-full w-fit text-sm"
             >Популярные фреймворки</span
@@ -155,9 +158,9 @@
         </div>
       </div>
 
-      <div class="w-1/2">
+      <div class="sm:w-1/2">
         <img
-          class=" rounded-xl h-96 w-full object-cover"
+          class=" rounded-xl sm:h-96 w-full object-cover"
           src="Group.png"
           alt=""
         />
@@ -165,9 +168,9 @@
     </div>
     <hr class="border-white/10 my-4" />
 
-    <div class="my-14 flex justify-between">
-      <div class="w-2/6 flex flex-col gap-6">
-        <p class="text-3xl">
+    <div class="my-14 flex sm:flex-row flex-col justify-between">
+      <div class="sm:w-2/6 flex flex-col gap-6 pb-6 sm:pb-0">
+        <p class="sm:text-3xl text-xl">
           SEO продвижение интернет-магазина лодок и моторов
         </p>
         <div class="flex flex-wrap gap-4">
@@ -181,9 +184,9 @@
           >
         </div>
       </div>
-      <div class="w-1/2">
+      <div class="sm:w-1/2">
         <img
-          class=" rounded-xl h-96 w-full object-cover"
+          class=" rounded-xl sm:h-96 h-60 w-full object-cover"
           src="pres-device-mockups-_image1-9.webp"
           alt=""
         />
@@ -191,9 +194,9 @@
     </div>
     <hr class="border-white/10 my-4" />
 
-    <div class="my-14 flex justify-between">
-      <div class="w-2/6 flex flex-col gap-6">
-        <p class="text-3xl">
+    <div class="my-14 flex sm:flex-row flex-col justify-between">
+      <div class="sm:w-2/6 flex flex-col gap-6 pb-6 sm:pb-0">
+        <p class="sm:text-3xl text-xl">
           Оптимизировали серверную часть для министерства здравоохранения
         </p>
         <div class="flex flex-wrap gap-4">
@@ -207,9 +210,9 @@
           >
         </div>
       </div>
-      <div class="w-1/2">
+      <div class="sm:w-1/2">
         <img
-          class=" rounded-xl h-96 w-full object-cover"
+          class=" rounded-xl sm:h-96 w-full object-cover"
           src="preview-8-v1.webp"
           alt=""
         />
@@ -229,7 +232,7 @@
     </div>
   </div>
 
-  <div class=" grid grid-cols-4 gap-10 my-24 mb-44">
+  <div class=" grid sm:grid-cols-4 grid-cols-2 sm:gap-10 gap-4 my-24 mb-44">
     <div class="flex flex-col gap-4">
       <img
         class=" rounded-xl h-80 object-cover"
@@ -282,15 +285,20 @@
     <p class="">Контакты</p>
     <hr class="border-white/10 my-4" />
 
-    <div class="flex my-20 flex-col gap-10 justify-center items-center">
-      <span class=" tracking-wide font-bold leading-tight text-5xl text-center"
+    <div class="flex my-20 flex-col gap-10 sm:justify-center sm:items-center">
+      <span
+        class=" tracking-wide font-bold leading-tight text-2xl sm:text-5xl sm:text-center"
         >Оставьте заявку <br /> или свяжитесь с нами <br /> по указанным контактам</span
       >
-      <div class="flex flex-col justify-center gap-2 text-xl items-center">
+      <div
+        class="flex flex-col sm:justify-center gap-2 text-xl sm:items-center"
+      >
         <span class=" font-light text-white/75">telegram</span>
         <a href="/" class="font-bold">@pitcher_dev</a>
       </div>
-      <div class="flex flex-col text-xl justify-center gap-2 items-center">
+      <div
+        class="flex flex-col text-xl sm:justify-center gap-2 sm:items-center"
+      >
         <span class=" font-light text-white/75">e-mail</span>
         <a href="/" class="font-bold">pitcher_dev@yandex.ru</a>
       </div>

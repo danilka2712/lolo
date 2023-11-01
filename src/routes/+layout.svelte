@@ -3,9 +3,9 @@
 </script>
 
 <header
-  class="flex justify-between xl:max-w-7xl max-w-6xl mx-auto my-6 items-center relative z-10"
+  class="flex justify-between xl:max-w-7xl max-w-6xl sm:mx-auto my-6 mx-4 items-center relative z-10"
 >
-  <ul>
+  <ul class="hidden lg:flex">
     <li class="flex gap-10">
       <a href="/">Главная</a>
       <a href="/">О нас</a>
@@ -14,7 +14,7 @@
   <a class="w-fit" href="/">
     <img src="logotype.svg" class="w-16" alt="logotype" />
   </a>
-  <ul>
+  <ul class="hidden lg:flex">
     <li class="flex gap-10">
       <a href="/">Кейсы</a>
       <a href="/">Контакты</a>

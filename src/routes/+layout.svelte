@@ -22,18 +22,18 @@
   </ul>
 </header>
 
-<main>
+<main class="">
   <slot />
 </main>
 
 <footer
-  class="flex justify-between gap-4 xl:max-w-7xl max-w-6xl mx-auto my-24 items-center relative z-10"
+  class="flex justify-between xl:max-w-7xl max-w-6xl sm:mx-auto my-6 mx-4 items-center relative z-10"
 >
   <a class="w-fit" href="/">
     <img src="logotype.svg" class="w-16" alt="logotype" />
   </a>
 
-  <ul>
+  <ul class="hidden">
     <li class="flex gap-10">
       <a href="/">Главная</a>
       <a href="/">О нас</a>

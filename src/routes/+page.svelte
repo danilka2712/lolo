@@ -41,14 +41,14 @@
 
 <div class=" sm:mx-auto xl:max-w-7xl sm:max-w-6xl mx-4">
   <div
-    class=" absolute sm:flex hidden -top-36 -rotate-12 items-center justify-center ml-auto mr-auto left-0 right-80 z-0"
+    class=" absolute hidden sm:flex -top-36 -rotate-12 items-center justify-center ml-auto mr-auto left-0 right-80 z-0"
   >
     <img class="w-72 box rounded-xl" src="preview-7-p-1080.png" alt="" />
   </div>
-  <div class=" absolute sm:flex hidden bottom-4 -right-44 -rotate-12 z-0">
+  <div class=" absolute hidden sm:flex bottom-4 -right-44 -rotate-12 z-0">
     <img class="w-72 box rounded-xl" src="preview-3-p-1080.png" alt="" />
   </div>
-  <div class=" absolute sm:flex hidden bottom-56 -left-44 -rotate-12 z-0">
+  <div class=" absolute hidden sm:flex bottom-56 -left-44 -rotate-12 z-0">
     <img
       class="w-72 box rounded-xl"
       src="https://assets.website-files.com/64d1a3f882efd7fa3c726596/64dd44d77f953bd5852e5c53_Brand-007.webp"
@@ -61,7 +61,9 @@
     >
       Из беспорядка <br /> в гармонию
     </h1>
-    <p class=" sm:text-2xl text-xl text sm:w-3/5 my-8 text-white/90">
+    <p
+      class="lg:text-9xl text sm:text-7xl text-xl sm:w-3/5 my-8 text-white/90 whitespace-normal"
+    >
       Мы занимаемся разработкой, проектированием, дизайном и продвижением
       уникальных цифровых продуктов, веб-сайтов, брендов и опыта.
     </p>
@@ -70,27 +72,27 @@
     >
   </div>
   <div
-    class="trigger flex justify-between mt-28 border-t py-16 border-white/10"
+    class="trigger flex justify-between mt-28 border-t py-16 border-white/10 w-full"
   >
-    <div class="flex justify-between w-full gap-20">
+    <div class="flex w-full justify-between sm:gap-20">
       <img
-        class="sm:w-72 w-32"
+        class="sm:w-72 hidden w-32"
         src="https://toproi.ru/wp-content/uploads/2020/05/mcedelvise-1.svg
         "
         alt=""
       />
       <img
-        class="sm:w-72 w-32"
+        class="sm:w-72 hidden w-32"
         src="https://toproi.ru/wp-content/uploads/2019/08/inrosko-logo.svg"
         alt=""
       />
       <img
-        class="sm:w-72 hidden"
+        class="sm:w-72 sm:flex w-44"
         src="https://toproi.ru/wp-content/uploads/2019/08/inrosko-logo.svg"
         alt=""
       />
       <img
-        class="sm:w-72 hidden"
+        class="sm:w-72 sm:flex w-44"
         src="https://toproi.ru/wp-content/uploads/2019/08/inrosko-logo.svg"
         alt=""
       />
@@ -126,7 +128,7 @@
       корпораций.
     </p>
     <button
-      class="border sm:flex hidden p-2 px-6 w-fit rounded-full border-white/25 mt-10"
+      class="border sm:flex p-2 px-6 w-fit rounded-full border-white/25 mt-10"
       >Оставить заявку</button
     >
   </div>
@@ -221,7 +223,7 @@
     <hr class="border-white/10 my-4" />
   </div>
 
-  <div class="flex my-12">
+  <div class="flex my-12 hidden">
     <p class="">Соцсети <br /> и новости</p>
     <div class="ml-20 flex gap-12">
       <a class="text-5xl font-black" href="/">VK</a>
@@ -232,14 +234,14 @@
     </div>
   </div>
 
-  <div class=" grid sm:grid-cols-4 grid-cols-2 sm:gap-10 gap-4 my-24 mb-44">
+  <div class="  grid sm:grid-cols-4 grid-cols-2 sm:gap-10 gap-4 my-24 mb-44">
     <div class="flex flex-col gap-4">
       <img
         class=" rounded-xl h-80 object-cover"
         src="https://assets.website-files.com/64d293054a05b986902db3e3/64e53bb70695f0b7c417621f_packaging-box-tape-mockup-v4-isometric-1-2420x1615-p-800.jpeg"
         alt=""
       />
-      <p>
+      <p class="text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, iste
         porro ea cumque incidunt earum harum dolores enim, eveniet est.
       </p>
@@ -250,10 +252,9 @@
         src="https://assets.website-files.com/64d293054a05b986902db3e3/64e53bb70695f0b7c417621f_packaging-box-tape-mockup-v4-isometric-1-2420x1615-p-800.jpeg"
         alt=""
       />
-      <p>
+      <p class="text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, iste
-        porro ea cumque incidunt earum harum dolores enim, eveniet est magni
-        natus sint ratione recusandae eaque deserunt blanditiis tempore ipsam.
+        porro ea cumque incidunt earum harum dolores enim
       </p>
     </div>
     <div class="flex flex-col gap-4">
@@ -262,10 +263,9 @@
         src="https://assets.website-files.com/64d293054a05b986902db3e3/64e53bb70695f0b7c417621f_packaging-box-tape-mockup-v4-isometric-1-2420x1615-p-800.jpeg"
         alt=""
       />
-      <p>
+      <p class="text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, iste
-        porro ea cumque incidunt earum harum dolores enim, eveniet est magni
-        natus sint ratione recusandae eaque deserunt blanditiis tempore ipsam.
+        porro ea cumque incidunt earum harum dolores enim,
       </p>
     </div>
     <div class="flex flex-col gap-4">
@@ -274,10 +274,9 @@
         src="https://assets.website-files.com/64d293054a05b986902db3e3/64e53bb70695f0b7c417621f_packaging-box-tape-mockup-v4-isometric-1-2420x1615-p-800.jpeg"
         alt=""
       />
-      <p>
+      <p class="text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, iste
-        porro ea cumque incidunt earum harum dolores enim, eveniet est magni
-        natus sint ratione recusandae eaque deserunt blanditiis tempore ipsam.
+        porro ea cumque incidunt earum harum dolores enim
       </p>
     </div>
   </div>

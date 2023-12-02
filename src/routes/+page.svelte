@@ -57,12 +57,12 @@
   </div>
   <div class="flex flex-col sm:mt-32 mt-20 relative z-10">
     <h1
-      class="lg:text-9xl text sm:text-7xl text-4xl sm:-ml-2 font-extrabold uppercase"
+      class="lg:text-9xl sm:text-7xl text-4xl sm:-ml-2 font-extrabold uppercase"
     >
       Из беспорядка <br /> в гармонию
     </h1>
     <p
-      class="lg:text-9xl text sm:text-7xl text-xl sm:w-3/5 my-8 text-white/90 whitespace-normal"
+      class=" sm:text-3xl text-xl sm:w-3/5 my-8 text-white/90 whitespace-normal"
     >
       Мы занимаемся разработкой, проектированием, дизайном и продвижением
       уникальных цифровых продуктов, веб-сайтов, брендов и опыта.
@@ -87,12 +87,12 @@
         alt=""
       />
       <img
-        class="sm:w-72 sm:flex w-44"
+        class="sm:w-72 sm:flex w-36"
         src="https://toproi.ru/wp-content/uploads/2019/08/inrosko-logo.svg"
         alt=""
       />
       <img
-        class="sm:w-72 sm:flex w-44"
+        class="sm:w-72 sm:flex w-36"
         src="https://toproi.ru/wp-content/uploads/2019/08/inrosko-logo.svg"
         alt=""
       />
